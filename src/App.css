@@ -47,4 +47,6 @@
 .home{
   font-size: 64px;
   font-family: 'Poller One';
+  text-align: right;
+  padding: 10%;
 }
