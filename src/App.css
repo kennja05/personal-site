@@ -43,3 +43,8 @@
     transform: rotate(360deg);
   }
 }
+
+.home{
+  font-size: 64px;
+  font-family: 'Poller One';
+}
