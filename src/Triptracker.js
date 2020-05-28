@@ -32,8 +32,16 @@ const Triptracker = () => {
                 <h5>Front End</h5>
                 <ul>
                     <li>React</li>
+                        <ul>
+                            <li>Utilized components and lifecycle methods to obtain the most up-to-date information</li>
+                        </ul>
                     <li>JavaScript</li>
                     <li>CanvasJS (for graphs)</li>
+                    <ul>
+                        <li>Created pie charts and line graphs with user input and information from 
+                            exchange rate API
+                        </li>
+                    </ul>
                 </ul>
                 <h5>Back End</h5>
                 <ul>
@@ -45,9 +53,7 @@ const Triptracker = () => {
                     {/* will want to get the github icon */}
                 </p>
             </div>
-            <div className='projectScreenshots'>
                 
-            </div>
         </div>
     )
 }
