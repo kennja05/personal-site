@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return(
@@ -7,6 +8,7 @@ const Projects = () => {
             <div className='proj'>
 
                 <div>
+                    <div className='project-title'>States Game</div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/SgrQfCzyd_o" 
@@ -17,6 +19,7 @@ const Projects = () => {
                 </div>
            
                 <div>
+                    <div className='project-title'>Image Scrambler</div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/BNmb7fpG_LQ" 
@@ -31,6 +34,7 @@ const Projects = () => {
             <div className='proj'>
 
                 <div>
+                    <div><Link className='project-title' to='/projects/triptracker'>Trip Tracker</Link></div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/a4EL71uBcW8" 
@@ -41,6 +45,7 @@ const Projects = () => {
                 </div>
 
                 <div>
+                    <div className='project-title'>Converter</div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/zBp52ufZFWQ" 

@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import Home from './Home'
 import Projects from './Projects'
+import TripTracker from './Triptracker'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path = '/projects' component={Projects} />
+        <Route exact path='/projects/triptracker' component={TripTracker}/>
       </Switch>
     </div>
   );
