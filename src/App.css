@@ -48,5 +48,16 @@
   font-size: 64px;
   font-family: 'Poller One';
   text-align: right;
-  padding: 10%;
+  margin-right: 10%;
+  padding-top: 10%;
+  border-style: solid;
+}
+
+.jacob{
+  border-style: solid;
+}
+
+.jacob:hover{
+  color: white;
+  cursor: pointer;
 }
