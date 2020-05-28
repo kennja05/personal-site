@@ -45,19 +45,20 @@
 }
 
 .home{
-  font-size: 64px;
+  /* font-size: 200%; */
   font-family: 'Poller One';
   text-align: right;
   margin-right: 10%;
   padding-top: 10%;
-  border-style: solid;
+  /* border-style: solid; */
 }
 
 .jacob{
-  border-style: solid;
+  font-size: 250%;
 }
 
-.jacob:hover{
-  color: white;
+.name:hover{
+  color: #837285;
   cursor: pointer;
+  /* font-size: 120%; */
 }
