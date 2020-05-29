@@ -9,14 +9,16 @@ class Home extends React.Component {
     render(){
         return(
             <div className='home container'>
-                    <div className='name'>
+                    <div className='jacob'>
                         <h1>
                             <span className='jacob'>Jacob</span>
                         </h1>
                         <h1>
                             <span className='jacob'>Kenny</span>
                         </h1>
+                       
                     </div>
+                    
                     <h3 style={{fontFamily: 'Oswald'}}>
                         software developer
                     </h3>

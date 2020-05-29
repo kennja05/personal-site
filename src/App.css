@@ -49,9 +49,10 @@
 
 .jacob{
   font-size: 250%;
+  display: inline-block;
 }
 
-.name:hover{
+.jacob:hover{
   color: #837285;
   cursor: pointer;
 }
