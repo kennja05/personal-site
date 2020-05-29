@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import About from './About'
 import Projects from './Projects'
-import TripTracker from './Triptracker'
+import TripTracker from './individualProjects/Triptracker'
 
 function App() {
   return (

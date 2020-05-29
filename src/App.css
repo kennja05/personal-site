@@ -82,10 +82,12 @@
 }
 
 .project-page{
-  background-image: linear-gradient(rgba(255,0,0,0), rgba(19, 37, 69, 1));
+  background-image: linear-gradient(rgba(19,37,69,0), rgba(19, 37, 69, .8), rgba(19, 37, 69, 1));
   height: 100%;
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
   text-align: left;
   padding-left: 2%;
   font-family: 'Oswald';

@@ -5,7 +5,9 @@ const Triptracker = () => {
         <div className='project-page'>
             <div className='project-content'> 
                 <h1>
-                    Trip Tracker
+                    <u>
+                        Triptracker
+                    </u>
                 </h1>
                 <p>
                     When planning a trip a lot of people like to make a budget for their expenses. 
@@ -28,8 +30,10 @@ const Triptracker = () => {
                     country's currency to the US Dollar, thus allowing the user to make an informed 
                     decision about when to exchange their currency.
                 </p>
-                <h3>Technologies Used</h3>
-                <h5>Front End</h5>
+                </div>
+                <div className='project-content'>
+                <h1><u>Technologies Used</u></h1>
+                <h3>Front End:</h3>
                 <ul>
                     <li>React</li>
                         <ul>
@@ -43,7 +47,7 @@ const Triptracker = () => {
                         </li>
                     </ul>
                 </ul>
-                <h5>Back End</h5>
+                <h3>Back End:</h3>
                 <ul>
                     <li>Ruby on Rails</li>
                     <ul>
@@ -55,8 +59,7 @@ const Triptracker = () => {
                     <a href='https://github.com/kennja05/trip-tracker-fe'>Github</a> 
                     {/* will want to get the github icon */}
                 </p>
-            </div>
-                
+            </div>       
         </div>
     )
 }
