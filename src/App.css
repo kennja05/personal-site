@@ -82,7 +82,7 @@
 }
 
 .project-page{
-  background-color: white;
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(19, 37, 69, 1));
   height: 100%;
   width: 100%;
   display: flex;
@@ -99,4 +99,12 @@
 .navlink{
   font-family: 'Oswald';
   color: white;
+  margin: 1%;
+}
+
+#nav{
+  text-align: right;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
 }
