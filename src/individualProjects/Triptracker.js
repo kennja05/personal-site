@@ -30,9 +30,13 @@ const Triptracker = () => {
                     country's currency to the US Dollar, thus allowing the user to make an informed 
                     decision about when to exchange their currency.
                 </p>
-                </div>
-                <div className='project-content'>
-                <h1><u>Technologies Used</u></h1>
+            </div>
+            <div className='project-content'>
+                <h1>
+                    <u>
+                        Technologies Used
+                    </u>
+                </h1>
                 <h3>Front End:</h3>
                 <ul>
                     <li>React</li>
@@ -57,7 +61,7 @@ const Triptracker = () => {
                 </ul>
                 <p>
                     <a href='https://github.com/kennja05/trip-tracker-fe'>Github</a> 
-                    {/* will want to get the github icon */}
+                    {/* will maybe want to get the github icon */}
                 </p>
             </div>       
         </div>

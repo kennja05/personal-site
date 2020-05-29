@@ -7,6 +7,7 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import TripTracker from './individualProjects/Triptracker'
+import ImageScrambler from './individualProjects/ImageScrambler'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path = '/projects' component={Projects} />
         <Route exact path='/projects/triptracker' component={TripTracker}/>
+        <Route exact path='/projects/imagescrambler' component={ImageScrambler} />
         <Route exact path='/about' component={About} />
       </Switch>
     </div>
