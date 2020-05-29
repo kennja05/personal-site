@@ -25,7 +25,7 @@ const Triptracker = () => {
                 <p>
                     The goal of this program is to allow for users to budget trips to foreign 
                     countries while getting real-time information about the exchange rate of that 
-                    country's currencyto the US Dollar, thus allowing the user to make an informed 
+                    country's currency to the US Dollar, thus allowing the user to make an informed 
                     decision about when to exchange their currency.
                 </p>
                 <h3>Technologies Used</h3>
@@ -33,7 +33,7 @@ const Triptracker = () => {
                 <ul>
                     <li>React</li>
                         <ul>
-                            <li>Utilized components and lifecycle methods to obtain the most up-to-date information</li>
+                            <li>Implemented components and lifecycle methods to obtain the most up-to-date information</li>
                         </ul>
                     <li>JavaScript</li>
                     <li>CanvasJS (for graphs)</li>
@@ -46,6 +46,9 @@ const Triptracker = () => {
                 <h5>Back End</h5>
                 <ul>
                     <li>Ruby on Rails</li>
+                    <ul>
+                        <li>Utilized Rails API and Postgres to obtain and store exchange rates and user data</li>
+                    </ul>
                     <li><a href='https://fixer.io/'>Fixer.io</a> Exchange Rate API</li>
                 </ul>
                 <p>

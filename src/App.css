@@ -3,16 +3,13 @@
   background-image: url('./backgroundImage.jpg');
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   margin: auto;
-  height: 100vh;
-  width: 100vw;  
+  height: 100%;
+  width: 100%;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
