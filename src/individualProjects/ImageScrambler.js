@@ -39,6 +39,7 @@ const ImageScrambler = () => {
                             </li> 
                         </ul>
                     </li>
+                    <li>HTML/CSS</li>
                 </ul>
                 <h3>Back End:</h3>
                 <ul>
