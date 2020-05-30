@@ -25,7 +25,7 @@ const ImageScrambler = () => {
                         Technologies Used
                     </u>
                 </h1>
-                <h3>Front End</h3>
+                <h3>Front End:</h3>
                 <ul>
                     <li>JavaScript
                         <ul>
@@ -39,8 +39,19 @@ const ImageScrambler = () => {
                             </li> 
                         </ul>
                     </li>
-                    
                 </ul>
+                <h3>Back End:</h3>
+                <ul>
+                    <li>Ruby On Rails
+                        <ul>
+                            <li>Utilized custom routes to display game data for leaderboard</li>
+                            <li>Implemented Postgres for data storage</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>
+                    <a href='https://github.com/kennja05/Image-Scrambler-Game'>Github</a>
+                </p>
             </div>
                 
 

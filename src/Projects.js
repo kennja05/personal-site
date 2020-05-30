@@ -8,7 +8,7 @@ const Projects = () => {
             <div className='proj'>
 
                 <div>
-                    <div className='project-title'>States Game</div>
+                    <div><Link className='project-title' to='/projects/statesgame'>States Game</Link></div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/SgrQfCzyd_o" 
