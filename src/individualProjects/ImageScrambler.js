@@ -19,6 +19,29 @@ const ImageScrambler = () => {
                     board.
                 </p>
             </div>
+            <div className='project-content'>
+                <h1>
+                    <u>
+                        Technologies Used
+                    </u>
+                </h1>
+                <h3>Front End</h3>
+                <ul>
+                    <li>JavaScript
+                        <ul>
+                            <li>
+                                Defined logic with JavaScript event listeners for the maneuvering 
+                                of puzzle tiles
+                            </li>
+                            <li>
+                                Established processes for tracking of game data such as move count 
+                                and time elapsed
+                            </li> 
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
                 
 
         </div>

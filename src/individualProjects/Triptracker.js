@@ -39,24 +39,34 @@ const Triptracker = () => {
                 </h1>
                 <h3>Front End:</h3>
                 <ul>
-                    <li>React</li>
+                    <li>React
                         <ul>
-                            <li>Implemented components and lifecycle methods to obtain the most up-to-date information</li>
+                            <li>
+                                Implemented components and lifecycle methods to obtain the most 
+                                up-to-date information
+                            </li>
                         </ul>
+                    </li>    
                     <li>JavaScript</li>
-                    <li>CanvasJS (for graphs)</li>
-                    <ul>
-                        <li>Created pie charts and line graphs with user input and information from 
-                            exchange rate API
-                        </li>
-                    </ul>
+                    <li>CanvasJS
+                        <ul>
+                            <li>
+                                Created pie charts and line graphs with user input and information 
+                                from exchange rate API
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
                 <h3>Back End:</h3>
                 <ul>
-                    <li>Ruby on Rails</li>
-                    <ul>
-                        <li>Utilized Rails API and Postgres to obtain and store exchange rates and user data</li>
-                    </ul>
+                    <li>Ruby on Rails
+                        <ul>
+                            <li>
+                                Utilized Rails API and Postgres to obtain and store exchange rates 
+                                and user data
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href='https://fixer.io/'>Fixer.io</a> Exchange Rate API</li>
                 </ul>
                 <p>
