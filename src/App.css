@@ -104,6 +104,10 @@
   margin: 1%;
 }
 
+.navlink:hover{
+  color: white;
+}
+
 #nav{
   text-align: right;
   position: sticky;
