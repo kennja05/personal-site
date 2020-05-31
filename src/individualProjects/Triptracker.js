@@ -68,7 +68,7 @@ const Triptracker = () => {
                             </li>
                         </ul>
                     </li>
-                    <li><a href='https://fixer.io/'>Fixer.io</a> Exchange Rate API
+                    <li><a href='https://fixer.io/' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
                         <ul>
                             <li>Obtained up-to-date exchange rate information for 178 foreign
                                 currencies
@@ -77,7 +77,7 @@ const Triptracker = () => {
                     </li>
                 </ul>
                 <p>
-                    <a href='https://github.com/kennja05/trip-tracker-fe'>Github</a> 
+                    <a href='https://github.com/kennja05/trip-tracker-fe' target='_blank' rel='noopener noreferrer'>Github</a> 
                     {/* will maybe want to get the github icon */}
                 </p>
             </div>       

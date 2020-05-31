@@ -18,7 +18,13 @@ const Converter = () => {
                 <h1><u>Technologies Used</u></h1>
                 <h3>Front End:</h3>
                 <ul>
-                    <li>React</li>
+                    <li>React
+                        <ul>
+                            <li>
+                                Utilized component structure, state, and props 
+                            </li>
+                        </ul>
+                    </li>
                     <li>CanvasJS
                         <ul>
                             <li>
@@ -35,6 +41,27 @@ const Converter = () => {
                         </ul>
                     </li>
                 </ul>
+                <h3>Back End:</h3>
+                <ul>
+                    <li>Ruby on Rails
+                        <ul>
+                            <li>
+                                Wrote custom routes and controller methods to appropriately render
+                                both historical and current information for foreign currencies
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='https://fixer.io' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
+                        <ul>
+                            <li>
+                                Obtained up-to-date exchange rate information for 178 foreign 
+                                currencies
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><a href='https://github.com/kennja05/converter-fe' target='_blank' rel='noopener noreferrer'>Github</a></p>
             </div>
         </div>
     )

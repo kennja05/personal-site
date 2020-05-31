@@ -55,6 +55,9 @@ const StatesGame = () => {
                         </ul>
                     </li>
                 </ul>
+                <p>
+                    <a href='https://github.com/kennja05/us-states-game' target='_blank' rel='noopener noreferrer'>Github</a>
+                </p>
             </div>
 
 

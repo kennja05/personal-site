@@ -51,7 +51,7 @@ const ImageScrambler = () => {
                     </li>
                 </ul>
                 <p>
-                    <a href='https://github.com/kennja05/Image-Scrambler-Game'>Github</a>
+                    <a href='https://github.com/kennja05/Image-Scrambler-Game' target='_blank' rel='noopener noreferrer'>Github</a>
                 </p>
             </div>
                 
