@@ -45,7 +45,7 @@ const Projects = () => {
                 </div>
 
                 <div>
-                    <div className='project-title'>Converter</div>
+                    <div><Link className='project-title' to='/projects/converter'>Converter</Link></div>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/zBp52ufZFWQ" 

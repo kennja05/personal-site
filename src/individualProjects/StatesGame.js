@@ -49,7 +49,8 @@ const StatesGame = () => {
                     <li>Ruby on Rails
                         <ul>
                             <li>
-                                Compiled data of each state in JSON format
+                                Compiled data for each state in JSON format to be displayed during
+                                the game
                             </li>
                         </ul>
                     </li>
