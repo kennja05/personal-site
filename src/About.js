@@ -1,4 +1,9 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMedium } from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
 const About = () => {
@@ -40,6 +45,9 @@ const About = () => {
                     but I’ve loved every minute of it, and can’t wait to see where coding may take 
                     me.
                 </p>
+            </div>
+            <div className='contact-info'>
+
             </div>
         </div>
 
