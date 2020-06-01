@@ -114,3 +114,21 @@
   position: -webkit-sticky; /* Safari */
   top: 0;
 }
+
+.about-page{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(19,37,69,0), rgba(19, 37, 69, .8), rgba(19, 37, 69, 1));
+  color: #837285;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#profile-picture{
+  margin: 20px;
+}
+
+.bio{
+  font-family: 'Oswald';
+  width: 50%;
+}

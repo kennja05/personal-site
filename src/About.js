@@ -4,8 +4,8 @@ import React from 'react'
 const About = () => {
     return(
         <div className='about-page'>
-            <p>Hi Im Jacob</p>
-            <img alt='me' src='https://avatars1.githubusercontent.com/u/57412930?s=460&u=2a40896d92e75e9490ef547487c0021012f3d131&v=4' />
+            <p style={{fontFamily: 'Poller One'}}>Hi Im Jacob</p>
+            <img id='profile-picture' alt='me' src='https://avatars1.githubusercontent.com/u/57412930?s=460&u=2a40896d92e75e9490ef547487c0021012f3d131&v=4' />
             <div className='bio'>
                 <p>
                     At the age of 26 I left what could end up to be the most stable employment 
@@ -27,7 +27,7 @@ const About = () => {
                 </p>
                 <p>
                     So far, the thing that I have enjoyed the most is building websites using 
-                    React.js. Sometimes things never make it past the localhost phase, but 
+                    React (such as this one). Sometimes things never make it past the localhost phase, but 
                     nonetheless, I’ve greatly enjoyed being able to take an idea, and quickly 
                     get it working in the browser.
                 </p>
