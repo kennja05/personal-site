@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
 import About from './About'
+import Contact from './Contact'
 import Projects from './Projects'
 import TripTracker from './individualProjects/Triptracker'
 import ImageScrambler from './individualProjects/ImageScrambler'
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/projects/statesgame' component={StatesGame} />
         <Route exact path='/projects/converter' component={Converter} />
         <Route exact path='/about' component={About} />
+        <Route exact path='/contact' component={Contact} />
       </Switch>
     </div>
   );
