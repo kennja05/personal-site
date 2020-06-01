@@ -2,8 +2,9 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faMediumM } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
 
 
 const About = () => {
@@ -47,7 +48,21 @@ const About = () => {
                 </p>
             </div>
             <div className='contact-info'>
-
+                <a className='icon' href='mailto:jacobkenny05@gmail.com' target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon size='2x' icon={faEnvelope} />
+                </a>
+                <a className='icon' href='https://medium.com/@jacobkenny05' target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon size='2x' icon={faMediumM} />
+                </a>
+                <a className='icon' href='https://www.linkedin.com/in/jacob-kenny/' target='_blank'rel='noopener noreferrer'>
+                    <FontAwesomeIcon size='2x' icon={faLinkedin} />
+                </a>
+                <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon size='2x'icon={faGithubSquare} />
+                </a>
+                <span className='icon'>
+                    <FontAwesomeIcon size='2x' icon={faPhoneSquare} />
+                </span> 
             </div>
         </div>
 

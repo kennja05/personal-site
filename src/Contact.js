@@ -19,16 +19,16 @@ const Contact = () => {
                 Phone: (570) 716-1763
             </p>
             <p>
-                Blog: <a href='https://medium.com/@jacobkenny05' target='_blank' rel='noopener noreferrer'>Medium</a>
-                <FontAwesomeIcon size='5x' icon={faMedium} />
+                Blog: <a href='https://medium.com/@jacobkenny05' target='_blank' rel='noopener noreferrer'>
+                <FontAwesomeIcon size='5x' icon={faMedium} /></a>
             </p>
             <p>
-                LinkedIn: <a href='https://www.linkedin.com/in/jacob-kenny/' target='_blank'rel='noopener noreferrer'>jacob-kenny</a>
-                <FontAwesomeIcon size='5x' icon={faLinkedin} />
+                LinkedIn: <a href='https://www.linkedin.com/in/jacob-kenny/' target='_blank'rel='noopener noreferrer'>
+                <FontAwesomeIcon size='5x' icon={faLinkedin} /></a>
             </p>
             <p>
-                Github: <a href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>kennja05</a>
-                <FontAwesomeIcon size='5x'icon={faGithubSquare} />
+                Github: <a href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
+                <FontAwesomeIcon size='5x'icon={faGithubSquare} /></a>
             </p>
         </div>
     )

@@ -9,6 +9,10 @@
   width: 100%;  
 }
 
+#root{
+  background-color: linear-gradient(rgb(19, 37, 69));
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -131,4 +135,19 @@
 .bio{
   font-family: 'Oswald';
   width: 50%;
+}
+
+.contact-info{
+  /* border-style: solid; */
+  width: 100vw;
+}
+
+.icon{
+  margin-right: 1%;
+  margin-left: 1%;
+  color: #837285;
+}
+
+.icon:hover{
+  color: white;
 }
