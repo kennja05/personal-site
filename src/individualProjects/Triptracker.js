@@ -83,15 +83,15 @@ const Triptracker = () => {
             </div>    
             <div className='gifs'>
                 <iframe title='login' src="https://giphy.com/embed/lrUWxQV1PVmtcVuZys?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
                 <iframe title='graphs' src="https://giphy.com/embed/dyuzM7FK0Mo3qaovDe?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
                 <iframe title='planned expense'src="https://giphy.com/embed/Ri7oUAFSWgdv3Uwvry?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             </div>   
         </div>

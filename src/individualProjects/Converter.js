@@ -65,15 +65,15 @@ const Converter = () => {
             </div>
             <div className='gifs'>
                 <iframe title='conversion'src="https://giphy.com/embed/lnJpDcLbWo7bNLrIIx?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
                 <iframe title='graph page' src="https://giphy.com/embed/chKfrmf44tjUdKBdU5?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
                 <iframe title='example' src="https://giphy.com/embed/MdjWkwLrQxAMLZD4Zv?video=0" 
-                width="480" height="270" 
+                width="375" height="216" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
             </div>
         </div>
