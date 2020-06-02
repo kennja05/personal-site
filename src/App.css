@@ -1,3 +1,11 @@
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
 .App {
   text-align: center;
   background-image: url('./backgroundImage.jpg');
@@ -5,14 +13,10 @@
   background-position: center center;
   /* background-repeat: no-repeat; */
   margin: auto;
-  height: 110vh;
+  height: 105vh;
   width: 100%;  
 }
 
-#root{
-  background-color: linear-gradient(rgb(19, 37, 69));
-
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -95,6 +99,7 @@
   text-align: left;
   padding-left: 2%;
   font-family: 'Oswald';
+  /* overflow: scroll; */
 }
 
 .project-content{
@@ -117,6 +122,7 @@
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
+  /* display: inline-block; */
 }
 
 .about-page{
@@ -127,6 +133,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: scroll;
 }
 #profile-picture{
   margin: 20px;

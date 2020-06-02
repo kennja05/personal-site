@@ -12,9 +12,9 @@ const Projects = () => {
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/SgrQfCzyd_o" 
-                        title='states-game-demo' frameborder="0" 
+                        title='states-game-demo' frameBorder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen='true'>
+                        allowFullScreen={true}>
                     </iframe>    
                 </div>
            
@@ -23,9 +23,9 @@ const Projects = () => {
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/BNmb7fpG_LQ" 
-                        title='image-scrambler-game-demo' frameborder="0" 
+                        title='image-scrambler-game-demo' frameBorder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen='true'>
+                        allowFullScreen={true}>
                     </iframe>
                 </div>
 
@@ -38,9 +38,9 @@ const Projects = () => {
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/a4EL71uBcW8" 
-                        title='trip-tracker-demo' frameborder="0" 
+                        title='trip-tracker-demo' frameBorder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen='true'>
+                        allowFullScreen={true}>
                     </iframe>
                 </div>
 
@@ -49,9 +49,9 @@ const Projects = () => {
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/zBp52ufZFWQ" 
-                        title='converter-demo' frameborder="0" 
+                        title='converter-demo' frameBorder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen='true'>
+                        allowFullScreen={true}>
                     </iframe>
                 </div>
 
