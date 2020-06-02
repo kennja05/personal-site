@@ -59,8 +59,19 @@ const StatesGame = () => {
                     <a href='https://github.com/kennja05/us-states-game' target='_blank' rel='noopener noreferrer'>Github</a>
                 </p>
             </div>
+            <div>
+                <iframe title='login' src="https://giphy.com/embed/UqMpOFvBiz2WMx1sBG" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
+                <iframe title='gameplay' src="https://giphy.com/embed/VHewtH3YEdQMvHd7Sk" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
+                <iframe title='endgame' src="https://giphy.com/embed/QuzD7OhY2Kt5xgUxRR" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
+            </div>
         </div>
     )
 }
