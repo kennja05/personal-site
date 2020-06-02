@@ -64,7 +64,17 @@ const Converter = () => {
                 <p><a href='https://github.com/kennja05/converter-fe' target='_blank' rel='noopener noreferrer'>Github</a></p>
             </div>
             <div className='gifs'>
-                
+                <iframe title='conversion'src="https://giphy.com/embed/lnJpDcLbWo7bNLrIIx?video=0" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
+
+                <iframe title='graph page' src="https://giphy.com/embed/chKfrmf44tjUdKBdU5?video=0" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
+
+                <iframe title='example' src="https://giphy.com/embed/MdjWkwLrQxAMLZD4Zv?video=0" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
             </div>
         </div>
     )

@@ -60,15 +60,15 @@ const StatesGame = () => {
                 </p>
             </div>
             <div className='gifs'>
-                <iframe title='login' src="https://giphy.com/embed/UqMpOFvBiz2WMx1sBG" 
+                <iframe title='login' src="https://giphy.com/embed/UqMpOFvBiz2WMx1sBG?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
-                <iframe title='gameplay' src="https://giphy.com/embed/VHewtH3YEdQMvHd7Sk" 
+                <iframe title='gameplay' src="https://giphy.com/embed/VHewtH3YEdQMvHd7Sk?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
-                <iframe title='endgame' src="https://giphy.com/embed/QuzD7OhY2Kt5xgUxRR" 
+                <iframe title='endgame' src="https://giphy.com/embed/QuzD7OhY2Kt5xgUxRR?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
             </div>

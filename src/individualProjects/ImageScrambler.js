@@ -55,15 +55,15 @@ const ImageScrambler = () => {
                 </p>
             </div>
             <div className='gifs'>
-                <iframe title='startup' src="https://giphy.com/embed/UrPH02ZBQqXk0ZW9Qk" 
+                <iframe title='startup' src="https://giphy.com/embed/UrPH02ZBQqXk0ZW9Qk?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
-                <iframe title='gameplay' src="https://giphy.com/embed/ckThXih9Pi1Oyzyh6M" 
+                <iframe title='gameplay' src="https://giphy.com/embed/ckThXih9Pi1Oyzyh6M?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
 
-                <iframe title='end' src="https://giphy.com/embed/WqG4OWOPnen5GVE036" 
+                <iframe title='end' src="https://giphy.com/embed/WqG4OWOPnen5GVE036?video=0" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
             </div>
