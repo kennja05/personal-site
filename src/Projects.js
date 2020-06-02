@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ReactToolTip from 'react-tooltip'
 
 const Projects = () => {
     return(
         <div className='projects'>
 
             <div className='proj'>
-
                 <div>
-                    <div><Link className='project-title' to='/projects/statesgame'>States Game</Link></div>
+                    <div data-tip data-for='states-game'><Link className='project-title' to='/projects/statesgame'>States Game</Link></div>
+                    <ReactToolTip id='states-game' type='dark'>
+                        <span>Click project title for more info!</span>
+                    </ReactToolTip>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/SgrQfCzyd_o" 
@@ -19,7 +22,10 @@ const Projects = () => {
                 </div>
            
                 <div>
-                    <div><Link className='project-title' to='/projects/imagescrambler'>Image Scrambler</Link></div>
+                    <div data-tip data-for='image-scrambler'><Link className='project-title' to='/projects/imagescrambler'>Image Scrambler</Link></div>
+                    <ReactToolTip id='image-scrambler' type='dark'>
+                        <span>Click project title for more info!</span>
+                    </ReactToolTip>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/BNmb7fpG_LQ" 
@@ -34,7 +40,10 @@ const Projects = () => {
             <div className='proj'>
 
                 <div>
-                    <div><Link className='project-title' to='/projects/triptracker'>Trip Tracker</Link></div>
+                    <div data-tip data-for='trip-tracker'><Link className='project-title' to='/projects/triptracker'>Trip Tracker</Link></div>
+                    <ReactToolTip id='trip-tracker' type='dark'>
+                        <span>Click project title for more info!</span>
+                    </ReactToolTip>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/a4EL71uBcW8" 
@@ -45,7 +54,10 @@ const Projects = () => {
                 </div>
 
                 <div>
-                    <div><Link className='project-title' to='/projects/converter'>Converter</Link></div>
+                    <div data-tip data-for='converter'><Link className='project-title' to='/projects/converter'>Converter</Link></div>
+                    <ReactToolTip id='converter' type='dark'>
+                        <span>Click project title for more info!</span>
+                    </ReactToolTip>
                     <iframe 
                         className='media-object'
                         width="560" height="315" src="https://www.youtube.com/embed/zBp52ufZFWQ" 
