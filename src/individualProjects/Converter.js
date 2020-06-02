@@ -63,6 +63,9 @@ const Converter = () => {
                 </ul>
                 <p><a href='https://github.com/kennja05/converter-fe' target='_blank' rel='noopener noreferrer'>Github</a></p>
             </div>
+            <div className='gifs'>
+                
+            </div>
         </div>
     )
 }

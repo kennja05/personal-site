@@ -54,7 +54,7 @@ const ImageScrambler = () => {
                     <a href='https://github.com/kennja05/Image-Scrambler-Game' target='_blank' rel='noopener noreferrer'>Github</a>
                 </p>
             </div>
-            <div>
+            <div className='gifs'>
                 <iframe title='startup' src="https://giphy.com/embed/UrPH02ZBQqXk0ZW9Qk" 
                 width="480" height="270" 
                 frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>

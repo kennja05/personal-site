@@ -80,7 +80,20 @@ const Triptracker = () => {
                     <a href='https://github.com/kennja05/trip-tracker-fe' target='_blank' rel='noopener noreferrer'>Github</a> 
                     {/* will maybe want to get the github icon */}
                 </p>
-            </div>       
+            </div>    
+            <div className='gifs'>
+                <iframe title='login' src="https://giphy.com/embed/lrUWxQV1PVmtcVuZys" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
+
+                <iframe title='graphs' src="https://giphy.com/embed/dyuzM7FK0Mo3qaovDe" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen={false}></iframe>
+
+                <iframe title='planned expense'src="https://giphy.com/embed/Ri7oUAFSWgdv3Uwvry" 
+                width="480" height="270" 
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>   
         </div>
     )
 }
