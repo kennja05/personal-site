@@ -73,9 +73,9 @@ class About extends React.Component {
                     <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon size='2x'icon={faGithubSquare} />
                     </a>
-                    <span data-tip data-for='phonenumber'> <FontAwesomeIcon size='2x' icon={faPhoneSquare} /> </span>
-                    <ReactToolTip id='phonenumber' type='dark'>
-                        <span>(570) 716-1763</span>
+                    <span data-tip='custom show' data-event='click focus' data-for='phonenumber'> <FontAwesomeIcon size='2x' icon={faPhoneSquare} /> </span>
+                    <ReactToolTip globalEventOff='click' id='phonenumber' type='dark'>
+                        <span style={{fontFamily: 'Oswald'}}>(570) 716-1763</span>
                     </ReactToolTip>
                 </div>
             </div>
