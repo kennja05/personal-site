@@ -13,22 +13,26 @@ class Home extends React.Component {
                         ||     ||`, "font-family:monospace")
     }
 
+    handleNameClick = () => {
+        this.props.history.push('/about')
+    }
+
     render(){
+        console.log(this.props)
         return(
             <div className='home container'>
-                    <div onClick={() => console.log('clicked the div')}className='jacob'>
+                <div onClick={this.handleNameClick} className='jacob'>
                         <h1>
                             <span className='jacob'>Jacob</span>
                         </h1>
                         <h1>
                             <span className='jacob'>Kenny</span>
-                        </h1>
-                       
-                    </div>
-                    
-                    <h3 style={{fontFamily: 'Oswald'}}>
-                        software developer
-                    </h3>
+                        </h1>                       
+                </div>
+                
+                <h3 style={{fontFamily: 'Oswald'}}>
+                    software developer
+                </h3>
             </div>
         )
     }

@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' render={(routerProps) => <Home {...routerProps} />} />
         <Route exact path = '/projects' component={Projects} />
         <Route exact path='/projects/triptracker' component={TripTracker}/>
         <Route exact path='/projects/imagescrambler' component={ImageScrambler} />
