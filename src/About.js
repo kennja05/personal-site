@@ -9,16 +9,6 @@ import ReactToolTip from 'react-tooltip'
 
 class About extends React.Component {
     
-    // state={
-    //     showPhone: false
-    // }
-    
-    // handlePhoneClick = () => {
-    //     this.setState({
-    //         showPhone: !this.state.showPhone
-    //     })
-    // }
-    
     
     render(){
         return(
