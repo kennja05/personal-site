@@ -9,11 +9,10 @@ import ReactToolTip from 'react-tooltip'
 
 class About extends React.Component {
     
-    
     render(){
         return(
             <div className='about-page'>
-                <p style={{fontFamily: 'Poller One'}}>Hi Im Jacob</p>
+                <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi Im Jacob</h3>
                 <img id='profile-picture' alt='me' src='https://avatars1.githubusercontent.com/u/57412930?s=460&u=2a40896d92e75e9490ef547487c0021012f3d131&v=4' />
                 <div className='bio'>
                     <p>
@@ -63,7 +62,7 @@ class About extends React.Component {
                     <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon size='2x'icon={faGithubSquare} />
                     </a>
-                    <span data-tip='custom show' data-event='click focus' data-for='phonenumber'> <FontAwesomeIcon size='2x' icon={faPhoneSquare} /> </span>
+                    <span className='icon' data-tip='custom show' data-event='click focus' data-for='phonenumber'> <FontAwesomeIcon size='2x' icon={faPhoneSquare} /> </span>
                     <ReactToolTip globalEventOff='click' id='phonenumber' type='dark'>
                         <span style={{fontFamily: 'Oswald'}}>(570) 716-1763</span>
                     </ReactToolTip>

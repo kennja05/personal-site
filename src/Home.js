@@ -4,7 +4,7 @@ class Home extends React.Component {
     
     componentDidMount(){
         console.log(`%c ________________________________________
-        < mooooooooooooooooooooooooooooooooooooo >
+        < mooooooooooo Welcome... moooooooooooooo >
          ----------------------------------------
                 \\   ^__^
                  \\  (oo)\\_______
@@ -16,7 +16,7 @@ class Home extends React.Component {
     render(){
         return(
             <div className='home container'>
-                    <div className='jacob'>
+                    <div onClick={() => console.log('clicked the div')}className='jacob'>
                         <h1>
                             <span className='jacob'>Jacob</span>
                         </h1>

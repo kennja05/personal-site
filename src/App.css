@@ -62,7 +62,7 @@ body{
 }
 
 .jacob:hover{
-  color: #837285;
+  color: #fe019a;
   cursor: pointer;
 }
 
@@ -107,7 +107,6 @@ body{
   overflow: auto;
 }
 
-
 .project-content{
   width: 100%;
   color: #837285;
@@ -146,14 +145,13 @@ iframe{
 }
 
 .about-page{
-  /* height: 100%; */
   width: 100%;
   background-image: linear-gradient(rgba(19,37,69,0), rgba(19, 37, 69, .8), rgba(19, 37, 69, 1));
   color: #837285;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* overflow: auto; */
+  padding-bottom: 1%;
 }
 #profile-picture{
   margin: 20px;
@@ -175,7 +173,7 @@ iframe{
 }
 
 .icon:hover{
-  color: white;
+  color: #fe019a;
 }
 
 .fixer-link{
