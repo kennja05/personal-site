@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+
 
 const ImageScrambler = () => {
     return(
@@ -15,11 +18,7 @@ const ImageScrambler = () => {
                     </p>
                 </div>
                 <div className='project-content'>
-                    <h1>
-                        <u>
-                            Technologies Used
-                        </u>
-                    </h1>
+                    <h1 style={{textAlign:'center'}}><u>Technologies Used</u></h1>
                     <h3>Front End:</h3>
                     <ul>
                         <li>JavaScript
@@ -46,7 +45,9 @@ const ImageScrambler = () => {
                         </li>
                     </ul>
                     <p>
-                        <a href='https://github.com/kennja05/Image-Scrambler-Game' target='_blank' rel='noopener noreferrer'>Github</a>
+                        <a className='icon' href='https://github.com/kennja05/Image-Scrambler-Game' 
+                        target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faGithubSquare} /></a>
                     </p>
                 </div>
 

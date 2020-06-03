@@ -1,10 +1,11 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Triptracker = () => {
     return(
         <div className='project-page'>
             <div className='summary-tech'>
-
                 <div className='project-content'> 
                     <h1>
                         <u>
@@ -15,7 +16,9 @@ const Triptracker = () => {
                         The goal of this program is to allow for users to budget trips to foreign 
                         countries while getting real-time information about the exchange rate of that 
                         country's currency to the US Dollar, thus allowing the user to make an informed 
-                        decision about when to exchange their currency.
+                        decision about when to exchange their currency. The user is able to input
+                        budgeted expenses in the units of foreign currency, and then track how much
+                        the cost in dollars of the planned expenses is changing on an hourly basis.
                     </p>
                 </div>
                 <div className='project-content'>
@@ -64,8 +67,9 @@ const Triptracker = () => {
                         </li>
                     </ul>
                     <p>
-                        <a href='https://github.com/kennja05/trip-tracker-fe' target='_blank' rel='noopener noreferrer'>Github</a> 
-                        {/* will maybe want to get the github icon */}
+                        <a className='icon' href='https://github.com/kennja05/trip-tracker-fe' 
+                        target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faGithubSquare} /></a> 
                     </p>
                 </div>    
             </div>

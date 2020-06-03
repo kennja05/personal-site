@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const StatesGame = () => {
     return(
@@ -8,18 +10,15 @@ const StatesGame = () => {
                 <div className='project-content'>
                     <h1><u>States Game</u></h1>
                     <p>
-                        The United State of America is made up of 50 individual states. These states 
-                        vary greatly in size, population, climate, location, political leanings, 
-                        and many other factors. Some enthusiastic people seemingly know everything 
-                        there is to know about these 50 states, and some know very little. There's 
-                        nothing wrong with either, but is it such a bad thing to learn more about the 
-                        country in which you are living?
-                    </p>
-                    <p>
                         The goal of this project is to reinforce the user's knowledge about the locations
                         of the 50 United States. Additionaly, we've included information about these 
                         states such as state capital, nickname, and a hand-selected image representing 
                         the state to increase depth of learning.
+                    </p>
+                    <p>
+                        During the game, the player is represented by an alien in a flying saucer 
+                        who will visit each of the 50 states on an unmarked map. The user is then 
+                        tasked with correctly answering the question: "Where am I right now?"
                     </p>
                 </div>
                 <div className='project-content'>
@@ -58,7 +57,9 @@ const StatesGame = () => {
                         </li>
                     </ul>
                     <p>
-                        <a href='https://github.com/kennja05/us-states-game' target='_blank' rel='noopener noreferrer'>Github</a>
+                        <a className='icon' href='https://github.com/kennja05/us-states-game' 
+                        target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faGithubSquare} /></a>
                     </p>
                 </div>
             </div>

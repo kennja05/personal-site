@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Converter = () => {
     return(
@@ -63,7 +65,11 @@ const Converter = () => {
                             </ul>
                         </li>
                     </ul>
-                    <p><a href='https://github.com/kennja05/converter-fe' target='_blank' rel='noopener noreferrer'>Github</a></p>
+                    <p>
+                        <a className='icon' href='https://github.com/kennja05/converter-fe' 
+                        target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faGithubSquare} /></a>
+                    </p>
                 </div>
             </div>
             <div className='gifs'>
