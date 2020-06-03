@@ -8,7 +8,7 @@ const Converter = () => {
             <div className='summary-tech'>
 
                 <div className='project-content'>
-                    <h1><u>Converter</u></h1>
+                    <h1 style={{textAlign: 'center'}}><u>Converter</u></h1>
                     <p>
                         This is a simple application that does what Google, MSN, and countless other 
                         websites already are set up to do: utilize the current exchange rates in order 
@@ -19,7 +19,7 @@ const Converter = () => {
                     </p>
                 </div>
                 <div className='project-content'>
-                    <h1><u>Technologies Used</u></h1>
+                    <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
                     <h3>Front End:</h3>
                     <ul>
                         <li>React
@@ -56,7 +56,7 @@ const Converter = () => {
                             </ul>
                         </li>
                         <li>
-                            <a href='https://fixer.io' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
+                            <a className='fixer-link' href='https://fixer.io' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
                             <ul>
                                 <li>
                                     Obtained up-to-date exchange rate information for 178 foreign 

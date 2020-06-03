@@ -8,7 +8,7 @@ const StatesGame = () => {
             <div className='summary-tech'>
 
                 <div className='project-content'>
-                    <h1><u>States Game</u></h1>
+                    <h1 style={{textAlign: 'center'}}><u>States Game</u></h1>
                     <p>
                         The goal of this project is to reinforce the user's knowledge about the locations
                         of the 50 United States. Additionaly, we've included information about these 
@@ -22,7 +22,7 @@ const StatesGame = () => {
                     </p>
                 </div>
                 <div className='project-content'>
-                    <h1><u>Technologies Used</u></h1>
+                    <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
                     <h3>Front End:</h3>
                     <ul>
                         <li>React

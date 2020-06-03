@@ -7,11 +7,7 @@ const Triptracker = () => {
         <div className='project-page'>
             <div className='summary-tech'>
                 <div className='project-content'> 
-                    <h1>
-                        <u>
-                            Triptracker
-                        </u>
-                    </h1>
+                    <h1 style={{textAlign: 'center'}}><u>Triptracker</u></h1>
                     <p>
                         The goal of this program is to allow for users to budget trips to foreign 
                         countries while getting real-time information about the exchange rate of that 
@@ -22,11 +18,7 @@ const Triptracker = () => {
                     </p>
                 </div>
                 <div className='project-content'>
-                    <h1>
-                        <u>
-                            Technologies Used
-                        </u>
-                    </h1>
+                    <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
                     <h3>Front End:</h3>
                     <ul>
                         <li>React
@@ -58,7 +50,7 @@ const Triptracker = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li><a href='https://fixer.io/' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
+                        <li><a className='fixer-link' href='https://fixer.io/' target='_blank' rel='noopener noreferrer'>Fixer.io</a> Exchange Rate API
                             <ul>
                                 <li>Obtained up-to-date exchange rate information for 178 foreign
                                     currencies
