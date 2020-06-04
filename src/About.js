@@ -51,18 +51,26 @@ class About extends React.Component {
                 </div>
                 <div className='contact-info'>
                     <a className='icon' href='mailto:jacobkenny05@gmail.com' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon size='2x' icon={faEnvelope} />
+                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faEnvelope} />
+                        <span className='sr-only'>Send an email to me</span>
                     </a>
                     <a className='icon' href='https://medium.com/@jacobkenny05' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon size='2x' icon={faMediumM} />
+                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faMediumM} />
+                        <span className='sr-only'>Read my blog</span>
                     </a>
                     <a className='icon' href='https://www.linkedin.com/in/jacob-kenny/' target='_blank'rel='noopener noreferrer'>
-                        <FontAwesomeIcon size='2x' icon={faLinkedin} />
+                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faLinkedin} />
+                        <span className='sr-only'>Visit my LinkedIn profile</span>
                     </a>
                     <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon size='2x'icon={faGithubSquare} />
+                        <FontAwesomeIcon aria-hidden='true' size='2x'icon={faGithubSquare} />
+                        <span className='sr-only'>Visit my Github profile</span>
                     </a>
-                    <span className='icon' data-tip='custom show' data-event='click focus' data-for='phonenumber'> <FontAwesomeIcon size='2x' icon={faPhoneSquare} /> </span>
+                    <span className='icon' data-tip='custom show' data-event='click focus' 
+                    data-for='phonenumber'> 
+                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faPhoneSquare} /> 
+                        <span className='sr-only'>Phone Number: (570) 716-1763</span>
+                    </span>
                     <ReactToolTip globalEventOff='click' id='phonenumber' type='dark'>
                         <span style={{fontFamily: 'Oswald'}}>(570) 716-1763</span>
                     </ReactToolTip>
