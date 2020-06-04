@@ -10,15 +10,19 @@ const StatesGame = () => {
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>States Game</u></h1>
                     <p>
-                        The goal of this project is to reinforce the user's knowledge about the locations
-                        of the 50 United States. Additionaly, we've included information about these 
-                        states such as state capital, nickname, and a hand-selected image representing 
-                        the state to increase depth of learning.
+                        The goal of this project is to reinforce knowledge about the locations
+                        of the 50 United States. In addition to location, the application contains 
+                        information about each state such as state capital, nickname, 
+                        and a hand-selected image representing the state to increase depth of learning.
                     </p>
                     <p>
-                        During the game, the player is represented by an alien in a flying saucer 
-                        who will visit each of the 50 states on an unmarked map. The user is then 
-                        tasked with correctly answering the question: "Where am I right now?"
+                        During the game the player is represented by an alien in a flying saucer, 
+                        who will visit each of the 50 states in random order on a map marked only 
+                        by state borders. At each stop the user will be tasked with answering the question:
+                        "Where am I right now?"
+                    </p>
+                    <p>
+                        <a style={{color: 'white'}} href='https://us-game-alien.herokuapp.com/play'>Live Site</a>
                     </p>
                 </div>
                 <div className='project-content'>
@@ -36,7 +40,7 @@ const StatesGame = () => {
                         <li>HTML/CSS
                             <ul>
                                 <li>
-                                    Utilized CSS animations to simulate the flying of the game's
+                                    Utilized CSS animations to simulate the flying of the
                                     protagonist
                                 </li>
                                 <li>

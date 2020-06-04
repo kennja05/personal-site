@@ -10,11 +10,11 @@ const ImageScrambler = () => {
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>Image Scrambler</u></h1>
                     <p>
-                        This is a puzzle game in which there is a 3x3 grid, with each segment holding
-                        a part of a whole image. There is also a blank segment. The 9 segments are 
+                        The game begins by creating a 3x3 grid, with eight of grid segments holding
+                        a part of a whole image, and the ninth segment is blank. The nine segments are 
                         scrambled in random order at the beginning of the game, and it is then the job
                         of the user to reassemble the image by moving the blank segment around the 
-                        board.
+                        board by using the arrow keys.
                     </p>
                 </div>
                 <div className='project-content'>

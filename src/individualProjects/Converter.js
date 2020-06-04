@@ -11,7 +11,7 @@ const Converter = () => {
                     <h1 style={{textAlign: 'center'}}><u>Converter</u></h1>
                     <p>
                         This is a simple application that does what Google, MSN, and countless other 
-                        websites already are set up to do: utilize the current exchange rates in order 
+                        websites already do quite well: utilize current exchange rates in order 
                         to perform currency conversions for users. Using an exchange rate API to get 
                         information, the application is able to perform conversions between 
                         approximately 180 foreign currencies, as well as display historical 

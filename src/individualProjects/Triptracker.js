@@ -14,7 +14,7 @@ const Triptracker = () => {
                         country's currency to the US Dollar, thus allowing the user to make an informed 
                         decision about when to exchange their currency. The user is able to input
                         budgeted expenses in the units of foreign currency, and then track how much
-                        the cost in dollars of the planned expenses is changing on an hourly basis.
+                        the cost in dollars is changing on an hourly basis.
                     </p>
                 </div>
                 <div className='project-content'>
