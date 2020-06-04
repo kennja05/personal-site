@@ -6,14 +6,14 @@ import { faMediumM } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
 import ReactToolTip from 'react-tooltip'
-
+import headshot from './images/headshot.png'
 class About extends React.Component {
     
     render(){
         return(
             <div className='about-page'>
                 <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi Im Jacob</h3>
-                <img id='profile-picture' alt='me' src='https://avatars1.githubusercontent.com/u/57412930?s=460&u=2a40896d92e75e9490ef547487c0021012f3d131&v=4' />
+                <img id='profile-picture' alt='me' src={headshot} />
                 <div className='bio'>
                     <p>
                         At the age of 26 I left what could end up to be the most stable employment 
