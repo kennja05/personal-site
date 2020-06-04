@@ -40,15 +40,6 @@ body{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .home{
   font-family: 'Poller One';
   text-align: right;
@@ -183,4 +174,16 @@ iframe{
 
 .fixer-link:hover{
   color: white;
+}
+
+.no-content-page{
+  color: #ff69b4;
+  size: 100%;
+  font-family: 'Coda Caption', sans-serif;
+  border-style: solid;
+  display: inline-block;
+  padding: 2%;
+  margin-top: 5%;
+  background-color: rgba(19, 37, 69, .3);
+  box-shadow: 0px 0px 40px 5px #ff69b4;
 }
