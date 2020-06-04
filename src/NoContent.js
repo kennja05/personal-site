@@ -17,7 +17,7 @@ class NoContent extends React.Component {
                 <Link className='icon' to='/'>
                     <FontAwesomeIcon aria-hidden='true' icon={faHome} size='2x' />
                 </Link>
-                    <a href='/' className='sr-only'>Return to Homepage</a>
+                <a href='/' className='sr-only'>Return to Homepage</a>
             </div>
         )
     }
