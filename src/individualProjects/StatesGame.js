@@ -21,9 +21,9 @@ const StatesGame = () => {
                         by state borders. At each stop the user will be tasked with answering the question:
                         "Where am I right now?"
                     </p>
-                    <p>
-                        <a style={{color: 'white'}} href='https://us-game-alien.herokuapp.com/play'>Live Site</a>
-                    </p>
+                    <h2>
+                        <a className='fixer-link' href='https://us-game-alien.herokuapp.com/play'>Live Site</a>
+                    </h2>
                 </div>
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
