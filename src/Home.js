@@ -18,7 +18,6 @@ class Home extends React.Component {
     }
 
     render(){
-        console.log(this.props)
         return(
             <div className='home container'>
                 <div onClick={this.handleNameClick} className='jacob'>
