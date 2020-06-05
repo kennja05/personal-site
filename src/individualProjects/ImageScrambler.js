@@ -16,6 +16,7 @@ const ImageScrambler = () => {
                         of the user to reassemble the image by moving the blank segment around the 
                         board by using the arrow keys.
                     </p>
+                    <h2><a className='fixer-link' href='https://image-scrambler-game.herokuapp.com/'>Live Site</a></h2>
                 </div>
                 <div className='project-content'>
                     <h1 style={{textAlign:'center'}}><u>Technologies Used</u></h1>
