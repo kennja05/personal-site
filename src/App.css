@@ -42,11 +42,14 @@ body{
 .jacob{
   font-size: 250%;
   display: inline-block;
+  color: #ff69b4
 }
 
 .jacob:hover{
   color: #ff69b4;
   cursor: pointer;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:white;
 }
 
 .projects{
