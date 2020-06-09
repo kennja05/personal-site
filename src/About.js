@@ -5,7 +5,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faMediumM } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
-import {faFolderOpen} from '@fortawesome/free-solid-svg-icons'
 import ReactToolTip from 'react-tooltip'
 import headshot from './images/headshot.png'
 class About extends React.Component {
@@ -14,7 +13,7 @@ class About extends React.Component {
         return(
             <div className='about-page'>
                 <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi Im Jacob</h3>
-                <img id='profile-picture' alt='me' src={headshot} />
+                <img id='profile-picture' alt='Jacob Kenny' src={headshot} />
                 <div className='bio'>
                     <p>
                         At the age of 26 I left what could end up to be the most stable job 
@@ -68,10 +67,6 @@ class About extends React.Component {
                     <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon aria-hidden='true' size='2x'icon={faGithubSquare} />
                         <span className='sr-only'>Visit my Github profile</span>
-                    </a>
-                    <a className='icon' href='/static/media/resume.ccc64038.pdf' target='_blank'rel='noopener noreferrer'>
-                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faFolderOpen} />
-                        <span className='sr-only'>Get my Resumé</span> 
                     </a>
                     <span className='icon' data-tip='custom show' data-event='click focus' 
                     data-for='phonenumber'> 
