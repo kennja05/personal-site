@@ -5,6 +5,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faMediumM } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
+import {faFolderOpen} from '@fortawesome/free-solid-svg-icons'
 import ReactToolTip from 'react-tooltip'
 import headshot from './images/headshot.png'
 class About extends React.Component {
@@ -67,6 +68,10 @@ class About extends React.Component {
                     <a className='icon' href='https://github.com/kennja05' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon aria-hidden='true' size='2x'icon={faGithubSquare} />
                         <span className='sr-only'>Visit my Github profile</span>
+                    </a>
+                    <a className='icon' href='/static/media/resume.ccc64038.pdf' target='_blank'rel='noopener noreferrer'>
+                        <FontAwesomeIcon aria-hidden='true' size='2x' icon={faFolderOpen} />
+                        <span className='sr-only'>Get my Resumé</span> 
                     </a>
                     <span className='icon' data-tip='custom show' data-event='click focus' 
                     data-for='phonenumber'> 
