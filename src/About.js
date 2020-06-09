@@ -14,7 +14,7 @@ class About extends React.Component {
         return(
             <div className='about-page'>
                 <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi Im Jacob</h3>
-                <img id='profile-picture' alt='me' src={headshot} />
+                <img id='profile-picture' alt='Jacob Kenny' src={headshot} />
                 <div className='bio'>
                     <p>
                         At the age of 26 I left what could end up to be the most stable job 
