@@ -1,18 +1,25 @@
 import React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faMediumM } from '@fortawesome/free-brands-svg-icons'
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faLinkedin, faMediumM } from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope, faPhoneSquare, faStickyNote} from '@fortawesome/free-solid-svg-icons'
+
 import ReactToolTip from 'react-tooltip'
+
 import headshot from './images/headshot.png'
+import myResume from './images/myResume.pdf'
 class About extends React.Component {
     
+    openPdf = () => {
+        const win = window.open(myResume, '_blank')
+        win.focus()
+    }
+
+
     render(){
         return(
             <div className='about-page'>
-                <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi Im Jacob</h3>
+                <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi I'm Jacob</h3>
                 <img id='profile-picture' alt='Jacob Kenny' src={headshot} />
                 <div className='bio'>
                     <p>
@@ -76,6 +83,10 @@ class About extends React.Component {
                     <ReactToolTip globalEventOff='click' id='phonenumber' type='dark'>
                         <span style={{fontFamily: 'Oswald'}}>(570) 716-1763</span>
                     </ReactToolTip>
+                    <span onClick={this.openPdf} className='icon'>
+                        <FontAwesomeIcon aria-hidden={true} size='2x' icon={faStickyNote} />
+                        <span className='sr-only'>View Resume</span>
+                    </span>
                 </div>
             </div>
             )
