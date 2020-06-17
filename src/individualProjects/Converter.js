@@ -17,6 +17,10 @@ const Converter = () => {
                         approximately 180 foreign currencies, as well as display historical 
                         information about the foreign currencies. 
                     </p>
+                    <h2>
+                        <a href='https://currency-converter05.netlify.app/convert' target='_blank' 
+                        rel='noopener noreferrer' className='fixer-link'>Live Site</a>
+                    </h2>
                 </div>
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
