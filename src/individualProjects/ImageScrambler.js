@@ -17,8 +17,9 @@ const ImageScrambler = () => {
                         board by using the arrow keys.
                     </p>
                     <h2>
-                        <a className='fixer-link' href='https://image-scrambler-game.herokuapp.com/'>Live Site</a>
-                    </h2>
+                        <a href='https://image-scrambler-game.herokuapp.com/' target='_blank' 
+                        rel='noopener noreferrer' className='fixer-link'>Live Site</a>
+                    </h2> 
                 </div>
                 <div className='project-content'>
                     <h1 style={{textAlign:'center'}}><u>Technologies Used</u></h1>

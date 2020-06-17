@@ -6,7 +6,6 @@ const StatesGame = () => {
     return(
         <div className='project-page'>
             <div className='summary-tech'>
-
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>States Game</u></h1>
                     <p>
@@ -22,9 +21,10 @@ const StatesGame = () => {
                         "Where am I right now?"
                     </p>
                     <h2>
-                        <a className='fixer-link' href='https://us-game-alien.herokuapp.com/play'>Live Site</a>
+                        <a href='https://us-game-alien.herokuapp.com/play' target='_blank' 
+                        rel='noopener noreferrer' className='fixer-link'>Live Site</a>
                     </h2>
-                </div>
+                </div> 
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
                     <h3>Front End:</h3>
