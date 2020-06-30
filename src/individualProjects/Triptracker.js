@@ -16,6 +16,10 @@ const Triptracker = () => {
                         budgeted expenses in the units of foreign currency, and then track how much
                         the cost in dollars is changing on an hourly basis.
                     </p>
+                    <h2>
+                        <a href='https://trip-tracker.netlify.app/' target='_blank' 
+                        rel='noopener noreferrer' className='fixer-link'>Live Site</a>
+                    </h2>
                 </div>
                 <div className='project-content'>
                     <h1 style={{textAlign: 'center'}}><u>Technologies Used</u></h1>
@@ -47,6 +51,9 @@ const Triptracker = () => {
                                 <li>
                                     Utilized Rails API and Postgres to obtain and store exchange rates 
                                     and user data
+                                </li>
+                                <li>
+                                    Employed cron jobs and Heroku Scheduler to regularly fetch exhange rates 
                                 </li>
                             </ul>
                         </li>
