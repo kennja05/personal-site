@@ -19,7 +19,7 @@ class Home extends React.Component {
 
     render(){
         return(
-            <div className='home container'>
+            <div className='container home'>
                 <div onClick={this.handleNameClick} className='jacob'>
                         <h1>
                             <span className='jacob'>Jacob</span>
