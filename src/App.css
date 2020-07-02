@@ -73,11 +73,12 @@ body{
 }
 
 .project-title{
+  font-family: 'Oswald';
   color: #070b18
 }
 
-.project-title:hover{
-  color: white;
+.row{
+  border: 1px solid red
 }
 
 .project-page{
