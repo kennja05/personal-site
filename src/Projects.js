@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 import ReactToolTip from 'react-tooltip'
 import {faInfoCircle} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import tripTrackerImg from './images/ttThumb.JPG'
+import converterImg from './images/converterThumb.JPG'
+import stateImg from './images/stateThumb.JPG'
+import fieriImg from './images/fieriThumb.JPG'
+import pcwbImg from './images/pcwbThumb.JPG'
+
 
 const Projects = () => {
     return(
@@ -11,15 +17,45 @@ const Projects = () => {
                 <FontAwesomeIcon size='1x' icon={faInfoCircle} /></small>
             </h1>
             <ReactToolTip place='right' type='info' effect='solid'/>
-            <div className='row'>
-                <div class="col-sm-4">Trip Tracker</div>
-                <div class="col-sm-4">Converter</div>
-                <div class="col-sm-4">States Game</div>
-            </div>
-            <div className='row'>
-                <div class="col-sm-4">Image Scrambler Gae</div>
-                <div class="col-sm-4">Penn Central Wind Band</div>
-                <div class="col-sm-4"></div>
+            <div className='container'>
+                <div className='row'>
+                    <div id='tt-thumb' className="col-sm-4">
+                        <Link to='/projects/triptracker'>
+                            <p className='project-title'>Trip Tracker</p>
+                            <img className='img-thumbnail' height='80%' width='80%' alt='project thumbnail' 
+                                src={tripTrackerImg} />
+                        </Link>
+                    </div>
+                    <div id='converter-thumb' className="col-sm-4">
+                        <Link to='/projects/converter'>
+                            <p className='project-title'>Converter</p>
+                            <img className='img-thumbnail' height='80%' width='80%' alt='project thumbnail' 
+                                src={converterImg} />
+                        </Link>
+                    </div>
+                    <div id='states-thumb' className="col-sm-4">
+                        <Link to='/projects/statesgame'>
+                            <p className='project-title'>States Game</p>
+                            <img className='img-thumbnail' height='80%' width='80%' alt='project thumbnail' 
+                                src={stateImg} />
+                        </Link>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className="col-sm-4">
+                        <Link to='/projects/imagescrambler'>
+                            <p className='project-title'>Image Scrambler Game</p>
+                            <img className='img-thumbnail' height='80%' width='80%' alt='project thumbnail' 
+                                src={fieriImg} />
+                        </Link>
+                    </div>
+                    <div className="col-sm-4">
+                        <p className='project-title'>Penn Central Wind Band</p>
+                        <img className='img-thumbnail' height='80%' width='80%' alt='project thumbnail' 
+                            src={pcwbImg} />
+                    </div>
+                    <div className="col-sm-4"></div>
+                </div>
             </div>
         </div>
         )

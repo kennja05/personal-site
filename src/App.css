@@ -78,7 +78,15 @@ body{
 }
 
 .row{
-  border: 1px solid red
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+
+#tt-thumb{
+  /* background-image: url(./images/blurredTripTracker.png); */
+  /* background-size: cover; */
+  /* background-position: center center; */
+
 }
 
 .project-page{
