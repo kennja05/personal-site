@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Triptracker = () => {
     return(
@@ -18,16 +18,20 @@ const Triptracker = () => {
                             the cost in dollars is changing on an hourly basis.
                         </p>
                         <div>
-                            <a href='https://trip-tracker.netlify.app/' target='_blank' 
-                            rel='noopener noreferrer' className='fixer-link'>Live Site</a>
+                            <a className='icon' href='https://trip-tracker.netlify.app/' target='_blank' 
+                            rel='noopener noreferrer'>Live Site</a>
                         </div>
                         <div>
-                            <a href='https://trip-tracker.netlify.app/' target='_blank' 
-                            rel='noopener noreferrer' className='fixer-link'>Video Demo</a>
+                            <a className='icon' href='https://www.youtube.com/watch?v=a4EL71uBcW8' target='_blank' 
+                            rel='noopener noreferrer'>
+                            <FontAwesomeIcon size='2x' icon={faYoutubeSquare} />
+                            </a>
                         </div>
-                        <a style={{color: '#ff69b4'}}href='https://github.com/kennja05/trip-tracker-fe' 
-                        target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon size='2x' icon={faGithub} /></a>
+                        <div>
+                            <a className='icon' href='https://github.com/kennja05/trip-tracker-fe' 
+                            target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon size='2x' icon={faGithub} /></a>
+                        </div>
                         <div className='container tech-list'>
                             <h2 style={{color: 'white'}}>Technologies</h2>
                             <ul className='list-group'>
@@ -41,7 +45,7 @@ const Triptracker = () => {
                                 <li className='list-group-item'>Ruby</li>
                                 <li className='list-group-item'>PostgreSQL</li>
                                 <li className='list-group-item'>Cron Jobs/Heroku Scheduler</li>
-                                <li className='list-group-item'>Fixer.io and REST Countries APIs</li> 
+                                <li className='list-group-item'>Fixer.io and RESTCountries APIs</li> 
                             </ul>
                         </div>
                     </div>

@@ -159,8 +159,9 @@ iframe{
 }
 
 .icon{
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 19px;
   /* color: #837285; */
   color: white;
 }
