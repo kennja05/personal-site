@@ -43,6 +43,7 @@ const Triptracker = () => {
                                 <li className='list-group-item'>CanvasJS</li>
                                 <li className='list-group-item'>Rails</li>
                                 <li className='list-group-item'>Ruby</li>
+                                <li className='list-group-item'>Bcrypt</li>
                                 <li className='list-group-item'>PostgreSQL</li>
                                 <li className='list-group-item'>Cron Jobs/Heroku Scheduler</li>
                                 <li className='list-group-item'>Fixer.io and RESTCountries APIs</li> 
