@@ -72,7 +72,6 @@ const Triptracker = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
