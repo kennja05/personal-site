@@ -84,15 +84,25 @@ body{
 }
 
 .project-page{
-  background-image: linear-gradient(rgba(19,37,69,0), rgba(19, 37, 69, .8), rgba(19, 37, 69, 1));
+  background-image: linear-gradient(45deg, rgba(19,37,69,.7), rgba(19, 37, 69, .8), rgba(19, 37, 69, 1));
   height: 100%;
   width: 100%;
-  display: flex;
+  color: white;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; */
   text-align: left;
-  padding-left: 2%;
+  /* padding-left: 2%; */
   font-family: 'Oswald';
+}
+
+.tech-list{
+  color: black;
+  text-align: center;
+}
+
+.col-sm-6{
+  border: 1px solid red;
 }
 
 .summary-tech{
@@ -174,7 +184,7 @@ iframe{
 }
 
 .fixer-link{
-  color: #837285;
+  color: #ff69b4;
   text-decoration: underline;
 }
 

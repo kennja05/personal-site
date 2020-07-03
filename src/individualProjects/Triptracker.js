@@ -4,7 +4,57 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Triptracker = () => {
     return(
-        <div className='project-page'>
+        <div className='project-page container-fluid'>
+            <h1 style={{textAlign: 'center'}}>Trip Tracker</h1>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-6'>
+                        <p>
+                            The goal of this program is to allow for users to budget trips to foreign 
+                            countries while getting real-time information about the exchange rate of that 
+                            country's currency to the US Dollar, thus allowing the user to make an informed 
+                            decision about when to exchange their currency. The user is able to input
+                            budgeted expenses in the units of foreign currency, and then track how much
+                            the cost in dollars is changing on an hourly basis.
+                        </p>
+                        <span>
+                            <a href='https://trip-tracker.netlify.app/' target='_blank' 
+                            rel='noopener noreferrer' className='fixer-link'>Live Site</a>
+                        </span>
+                        <br></br>
+                        <span>
+                            <a href='https://trip-tracker.netlify.app/' target='_blank' 
+                            rel='noopener noreferrer' className='fixer-link'>Video Demo</a>
+                        </span>
+                        <div className='container tech-list'>
+                        <h2 style={{color: 'white'}}>Technologies</h2>
+                            <ul className='list-group list-group-flush-md'>
+                                <li className='list-group-item'>React</li>
+                                <li className='list-group-item'>JavaScript</li>
+                                <li className='list-group-item'>HTML</li>
+                                <li className='list-group-item'>CSS</li>
+                                <li className='list-group-item'>CanvasJS</li>
+                                <li className='list-group-item'>Rails</li>
+                                <li className='list-group-item'>Ruby</li>
+                                <li className='list-group-item'>Cron Jobs/Heroku Scheduler</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='col-sm-6'>
+                        <div className='container'>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default Triptracker
+
+/* <div className='project-page'>
             <div className='summary-tech'>
                 <div className='project-content'> 
                     <h1 style={{textAlign: 'center'}}><u>Triptracker</u></h1>
@@ -85,8 +135,4 @@ const Triptracker = () => {
                 width="416" height="234" 
                 frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             </div>   
-        </div>
-    )
-}
-
-export default Triptracker
+        </div> */
