@@ -54,12 +54,12 @@ const Converter = () => {
                             </iframe>
                         </div>
                         <div className='embed-responsive embed-responsive-16by9'>
-                            <iframe title='conversion'src="https://giphy.com/embed/chKfrmf44tjUdKBdU5?video=0" 
+                            <iframe title='graph page'src="https://giphy.com/embed/chKfrmf44tjUdKBdU5?video=0" 
                                 className="embed-responsive-itemgiphy-embed" allowFullScreen={false}>
                             </iframe>
                         </div>
                         <div className='embed-responsive embed-responsive-16by9'>
-                            <iframe title='conversion'src="https://giphy.com/embed/MdjWkwLrQxAMLZD4Zv?video=0" 
+                            <iframe title='example'src="https://giphy.com/embed/MdjWkwLrQxAMLZD4Zv?video=0" 
                                 className="embed-responsive-itemgiphy-embed" allowFullScreen={false}>
                             </iframe>
                         </div>
