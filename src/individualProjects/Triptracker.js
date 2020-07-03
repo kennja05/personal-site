@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Triptracker = () => {
     return(
@@ -17,32 +17,53 @@ const Triptracker = () => {
                             budgeted expenses in the units of foreign currency, and then track how much
                             the cost in dollars is changing on an hourly basis.
                         </p>
-                        <span>
+                        <div>
                             <a href='https://trip-tracker.netlify.app/' target='_blank' 
                             rel='noopener noreferrer' className='fixer-link'>Live Site</a>
-                        </span>
-                        <br></br>
-                        <span>
+                        </div>
+                        <div>
                             <a href='https://trip-tracker.netlify.app/' target='_blank' 
                             rel='noopener noreferrer' className='fixer-link'>Video Demo</a>
-                        </span>
+                        </div>
+                        <a style={{color: '#ff69b4'}}href='https://github.com/kennja05/trip-tracker-fe' 
+                        target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faGithub} /></a>
                         <div className='container tech-list'>
-                        <h2 style={{color: 'white'}}>Technologies</h2>
-                            <ul className='list-group list-group-flush-md'>
+                            <h2 style={{color: 'white'}}>Technologies</h2>
+                            <ul className='list-group'>
                                 <li className='list-group-item'>React</li>
                                 <li className='list-group-item'>JavaScript</li>
                                 <li className='list-group-item'>HTML</li>
                                 <li className='list-group-item'>CSS</li>
+                                <li className='list-group-item'>Flexbox</li>
                                 <li className='list-group-item'>CanvasJS</li>
                                 <li className='list-group-item'>Rails</li>
                                 <li className='list-group-item'>Ruby</li>
-                                <li className='list-group-item'>Cron Jobs/Heroku Scheduler</li> 
+                                <li className='list-group-item'>PostgreSQL</li>
+                                <li className='list-group-item'>Cron Jobs/Heroku Scheduler</li>
+                                <li className='list-group-item'>Fixer.io and REST Countries APIs</li> 
                             </ul>
                         </div>
                     </div>
                     <div className='col-sm-6'>
                         <div className='container'>
-                            
+                            <div className='embed-responsive embed-responsive-16by9'>
+                                <iframe title='login' src="https://giphy.com/embed/lrUWxQV1PVmtcVuZys?video=0" 
+                                    className='embed-responsive-item giphy-embed'
+                                    allowFullScreen={false}>
+                                </iframe>
+                            </div>
+                            <div className='embed-responsive embed-responsive-16by9'>
+                                <iframe title='graphs' src="https://giphy.com/embed/dyuzM7FK0Mo3qaovDe?video=0" 
+                                    className="embed-responsive-item giphy-embed" 
+                                    allowFullScreen={false}>
+                                </iframe>
+                            </div>
+                            <div className='embed-responsive embed-responsive-16by9'>
+                                <iframe title='planned expense'src="https://giphy.com/embed/Ri7oUAFSWgdv3Uwvry?video=0"                                    
+                                    className="embed-responsive-item giphy-embed" allowFullScreen={false}>                                       
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
