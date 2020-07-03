@@ -12,7 +12,7 @@ import pcwbImg from './images/pcwbThumb.JPG'
 
 const Projects = () => {
     return(
-        <div>
+        <div className='container-fluid'>
             <h1 className='project-title'>Projects <small data-tip='Click a project to see details about that project'>
                 <FontAwesomeIcon size='1x' icon={faInfoCircle} /></small>
             </h1>

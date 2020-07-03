@@ -18,7 +18,7 @@ class About extends React.Component {
 
     render(){
         return(
-            <div className='about-page'>
+            <div className='about-page container-fluid'>
                 <h3 style={{fontFamily: 'Poller One', marginTop: '10px', color: '#ff69b4'}}>Hi I'm Jacob</h3>
                 <img id='profile-picture' alt='Jacob Kenny' src={headshot} />
                 <div className='bio'>
