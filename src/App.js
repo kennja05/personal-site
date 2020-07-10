@@ -12,6 +12,7 @@ import TripTracker from './individualProjects/Triptracker'
 import ImageScrambler from './individualProjects/ImageScrambler'
 import StatesGame from './individualProjects/StatesGame'
 import Converter from './individualProjects/Converter'
+import PCWB from './individualProjects/Pcwb'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/projects/imagescrambler' component={ImageScrambler} />
         <Route exact path='/projects/statesgame' component={StatesGame} />
         <Route exact path='/projects/converter' component={Converter} />
+        <Route exact path='/projects/pcwb' component={PCWB} />
         <Route exact path='/about' component={About} />
         <Route path='*' component={NoContent} />
       </Switch>
