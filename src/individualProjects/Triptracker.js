@@ -17,10 +17,10 @@ const Triptracker = () => {
                             budgeted expenses in the units of foreign currency, and then track how much
                             the cost in dollars is changing on an hourly basis.
                         </p>
-                        <div>
+                        {/* <div>
                             <a className='icon' href='https://trip-tracker.netlify.app/' target='_blank' 
                             rel='noopener noreferrer'>Live Site</a>
-                        </div>
+                        </div> */}
                         <div>
                             <a className='icon' href='https://www.youtube.com/watch?v=a4EL71uBcW8' target='_blank' 
                             rel='noopener noreferrer'>
